@@ -1,4 +1,4 @@
-localStorage.clear();
+// localStorage.clear();
 // Initialize or retrieve transactions from localStorage
 let transactions = JSON.parse(localStorage.getItem('transactions')) || [];
 let medicinesInventory = JSON.parse(localStorage.getItem('medicinesInventory')) || {};
